@@ -1,5 +1,5 @@
 {
-  "name": "node-crud",
+  "name": "crud-node",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
@@ -7,7 +7,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
-    "dev": "node --watch --no-warnings server,js"
+    "dev": "node --watch --no-warnings server.js"
   },
   "repository": {
     "type": "git",
@@ -21,6 +21,20 @@
   },
   "homepage": "https://github.com/ferhmdiogo/node-crud#readme",
   "dependencies": {
+    "avvio": "^9.0.0",
+    "cjs": "0.0.11",
+    "cjs-loader": "^0.1.0",
+    "crud-node": "file:",
+    "events": "^3.3.0",
+    "fastify": "^5.0.0",
+    "postgres": "^3.4.4"
+  },
+  "devDependencies": {
+    "avvio": "^9.0.0",
+    "cjs": "0.0.11",
+    "cjs-loader": "^0.1.0",
+    "dotenv": "^16.4.5",
+    "events": "^3.3.0",
     "fastify": "^5.0.0"
   }
 }
